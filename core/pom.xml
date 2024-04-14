@@ -8,7 +8,10 @@
         <graalvm.version>21.3.0</graalvm.version>
         <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../example-tsp/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
-
+    <properties>
+        <sonar.organization>joseemjr</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
     <name>Mork</name>
     <description>Metaheuristic Optimization framewoRK</description>
     <url>https://github.com/rmartinsanta/mork</url>
